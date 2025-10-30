@@ -36,3 +36,11 @@ nav ul li {
   padding: 5px;
   border-radius: 5px;
 }
+
+.main {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border: 4px solid white;
+  background: transparent url(../images/Equestria.jpg) no-repeat;
+}
