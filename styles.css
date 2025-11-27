@@ -1,0 +1,213 @@
+/* bangers-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/bangers-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* blinker-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/blinker-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+    background-image: linear-gradient(to right, rgba(220, 29, 29, 0.767), rgba(12, 111, 191, 0.792)), url(images/city_background.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+    background-repeat: repeat-y;
+}
+
+.WDD {
+  position: absolute;
+  display: flex;
+}
+
+h1 {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  -webkit-text-stroke-width: 1.5px;-webkit-text-stroke-color: rgb(205, 15, 15);
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 700px;
+  font-style: bold;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 700px;
+  font-style: bold;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+  color: white;
+}
+
+.text p {
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+  color: white;
+}
+
+.DISCLAIMER p {
+  font-family: 'Blinker';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: bold;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 2.2em;
+	color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav a {
+  -webkit-transition: -webkit-transform .3s,
+                      background-color 1s ease-in .2s;
+}
+
+nav a:hover {
+    color: rgb(90, 214, 255);
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+nav {
+	margin: center;	
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul li {
+	padding: 0 17px;
+}
+
+.container {
+	margin: center;
+	padding: 20px 0 30px 320px;	
+	text-align: CENTER;
+}
+
+.logo {
+	position: absolute;
+	z-index: 100;
+	left: 60px;
+    top: 15px;
+  -webkit-transition: -webkit-transform .4s;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.Episode1 {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 7px solid rgb(205, 15, 15);
+    border-radius: 10px;
+}
+
+.OC {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  display: block;
+  transform-origin: center;   /* pivot point */
+  animation: seesaw 4s ease-in-out infinite alternate;
+}
+
+@keyframes seesaw {
+    0%   { transform: rotate(-20deg); }
+    100% { transform: rotate(20deg); }
+}
+
+.FSRB {
+  align-self: flex-end;
+  -webkit-transition: -webkit-transform .2s;
+}
+
+.FSRB:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.FSA {
+  align-self: flex-end;
+  -webkit-transition: -webkit-transform .2s;
+}
+
+.FSA:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.FSS {
+  align-self: flex-end;
+  -webkit-transition: -webkit-transform .2s;
+}
+
+.FSS:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.SHOWS {
+  display: flex;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center'
+}
+
+.text {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  padding-bottom: 40px;
+  justify-content: center;
+  gap: 15px;
+}
